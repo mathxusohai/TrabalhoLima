@@ -1,0 +1,109 @@
+  
+body{
+    background-image: url(https://media.istockphoto.com/photos/blue-nebula-picture-id596348958?k=6&m=596348958&s=170667a&w=0&h=q1VIH3vYgXSAc1tR2pbBfXW4hVy9GiyQ9SNVyxQLgIQ=);
+    justify-content: center;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    margin-top: 2%;
+    margin-left: 3%;
+    font-weight: bold; 
+    box-shadow: 5px 4px 5px rgb(114, 29, 218);
+    background-color: rgb(0, 0, 255);
+    float: left;
+    text-align: center; 
+    border-radius: 5px;  
+    font-family: 'Press Start 2P', cursive;
+    font-style: regular;
+    font-weight: 500;
+    font-size: medium;
+    opacity: 100%;
+    justify-content: center;
+    color: white;
+}
+#card img {
+    padding: 10px;
+    width: 400px;
+    height: 190px;
+    border-radius: 18px; 
+    width: 100%;
+}
+#titulo{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    width: 1370px;
+    height: 20px;
+    margin-top: 2%;
+    margin-left: 3%;
+    font-weight: bold; 
+    box-shadow: 5px 4px 5px rgb(114, 29, 218);
+    background-color: rgb(0, 0, 255);
+    float: left;
+    text-align: center; 
+    border-radius: 5px;   
+    font-family: 'Press Start 2P', cursive;
+    font-style: regular;
+    font-weight: 1200;
+    color: white;
+    font-size: 17px;
+    opacity: 100%;
+    justify-content: center;
+}
+@media screen and (max-device-width: 900px){
+     .container, .card, .card img, #titulo, main{width:400px;}
+}
+#title{
+    font-size: 25px;
+    margin-left: 10px;
+}
+#botaonew1{
+    background-color: #320646;
+    border-radius: 20px;
+    color: white;
+    padding-top: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 3px 3px 3px rgb(183, 0, 255);
+    font-family: 'Press Start 2P', cursive;
+    font-style: regular;
+    margin: 2px;
+}
+#botao{
+    background-color: #320646;
+    border-radius: 20px;
+    color: white;
+    padding-top: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 3px 3px 3px rgb(183, 0, 255);
+    font-family: 'Press Start 2P', cursive;
+    font-style: regular;
+}
+main{
+    width: 100%;
+    justify-content: center;
+}
+#card0{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-left: 6%;
+    font-family: 'Press Start 2P', cursive;
+    font-style: regular;
+}
+span{
+    color: white;
+    font-weight: 900;
+    margin-left: 2px;
+    justify-content: space-around;
+}

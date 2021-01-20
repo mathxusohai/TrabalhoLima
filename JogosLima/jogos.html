@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/jogos.css">
+    <script src="/js/jogos.js"></script>
+    <title>Trabalho de Lima</title>
+</head>
+<header>
+    <div id="titulo">
+    <div class="container">
+        <p id="title">Quiz: Você realmente é um otaku?</p>
+    </div>
+    </div>
+</header>
+<main>
+<body>
+    <div id="card">
+        <div class="container">
+            <img src="/img/One-Piece-capa-890x466.png" alt="">
+            <p>Qual anime essa imagem pertence?</p>
+            <input type="radio"/ name="alternativa" value="" id="certa1">One Piece<br>
+            <input type="radio" name="alternativa" value=""/>Naruto<br>
+            <input type="radio" name="alternativa" value=""/>Dragon Ball<br>
+            <button  onclick="verificar1()" id="botao">Responder</button><br>
+            <span id="acertou1"></span>
+        </div>
+    </div>
+
+    <div id="card">
+        <div class="container">
+            <img src="/img/Gojou.jpg" alt=""><br>
+            <p>De qual anime é esse personagem?</p>
+            <input type="radio" name="alternativa1" value="">The Promised Nerveland<br>
+            <input type="radio" name="alternativa1" value="" id="certa2"/>Jujutsu Kaisen<br>
+            <input type="radio" name="alternativa1" value="">Death Note<br>
+            <button  onclick="verificar2()" id="botao">Responder</button><br />
+            <span id="acertou2"></span>
+        </div>
+    </div>
+    
+    <div id="card">
+        <div class="container">
+            <img src="/img/naruto.png" alt=""><br>
+            <p>Qual é o nome do Autor(a) de Naruto?</p>
+            <input type="radio" name="alternativa2" value=""/>Koyoharu Gotouge<br>
+            <input type="radio" name="alternativa2" value=""/>Eiichiro Oda<br>
+            <input type="radio" name="alternativa2" value="" id="certa3"/>Masashi Kishimoto<br>
+            <button  onclick="verificar3()" id="botao">Responder</button><br />
+            <span id="acertou3"></span>
+        </div>
+    </div>         
+
+    <div id="card">
+        <div class="container">
+            <img src="/img/superonze.jpg" alt=""><br>
+            <p>O anime "Super Onze" passava em qual canal de TV Aberta no Brasil?</p>
+            <input type="radio" name="alternativa3" value=""/>Globo<br>
+            <input type="radio" name="alternativa3" value="" id="certa4"> Rede TV<br>
+            <input type="radio" name="alternativa3" value=""/>SBT<br>
+            <button  onclick="verificar4()" id="botao">Responder</button><br>
+            <span id="acertou4"></span>
+        </div>
+    </div>
+    
+    <div id="card">
+        <div class="container">
+        <img src="/img/jujutsu kaisen.jpg" alt=""><br>
+        <p>Qual anime essa imagem pertence?</p><br>
+        <input type="radio"  name="alternativa4" value="" id="certa5"> Jujutsu Kaisen<br>
+        <input type="radio"  name="alternativa4" value=""/> Kimetsu no yaiba<br>
+        <input type="radio"  name="alternativa4" value=""/> Re:Zero<br>
+        <button  onclick="verificar5()" id="botao">Responder</button><br>
+        <span id="acertou5"></span>
+        </div>
+    </div>  
+    
+    <div id="card">
+        <div class="container">
+        <img src="/img/Kimetsu1.gif" alt=""><br>
+        <p>A cena acima pertence a qual anime?</p><br>
+        <input type="radio" name="alternativa5" value=""/> Jujutsu Kaisen<br>
+        <input type="radio" name="alternativa5" value=""/> Charlotte<br>
+        <input type="radio"  name="alternativa5" value="" id="certa6"> Kimetsu no yaiba<br>
+        <button  onclick="verificar6()" id="botao">Responder</button><br />
+        <span id="acertou6"></span>
+        </div>
+    </div>    
+    
+    <div id="card">
+        <div class="container">
+        <img src="/img/ZeroTwo.jpg" alt="">
+        <p>Qual anime a personagem acima pertence?</p><br>
+        <input type="radio" name="alternativa6" value=""/> Toradora <br>
+        <input type="radio" name="alternativa6" value=""/> Konosuba<br>
+        <input type="radio"  name="alternativa6" value="" id="certa7"> Darling in the franxx<br>
+        <button  onclick="verificar7()" id="botao">Responder</button><br />
+        <span id="acertou7"></span>
+    </div>
+</div>   
+
+    <div id="card">
+        <div class="container">
+        <img src="/img/tpn.jpg" alt="">
+        <p>Qual anime essa imagem pertence?</p><br>
+        <input type="radio"  name="alternativa7" value="" id="certa8"> The Promised Neverland<br>
+        <input type="radio" name="alternativa7" value=""> Vinland Saga<br>
+        <input type="radio" name="alternativa7" value=""> Shokugeki no Souma<br>
+        <button  onclick="verificar8()" id="botao">Responder</button><br />
+        <span id="acertou8"></span>
+    </div>
+    </div> 
+    <div id="card">
+        <div class="container">
+        <img src="/img/ShinGeki.gif" alt="">
+        <p>A cena acima pertence a qual anime?</p><br>
+        <input type="radio" name="alternativa8" value=""/> Berserk<br>
+        <input type="radio"name="alternativa8" value=""/> My Hero Academia<br>
+        <input type="radio" name="alternativa8" id="certa9"> Shingeki no Kyojin<br>
+        <button  onclick="verificar9()" id="botao">Responder</button><br />
+        <span id="acertou9"></span>
+    </div>
+    </div>
+    <div id="card">
+        <div class="container">
+        <img src="/img/onepiece1.jpg" alt="">
+        <p>One Piece: Qual é o nome do personagem?</p><br>
+        <input type="radio"name="alternativa9" value="" /> Sanji<br>
+        <input type="radio"  name="alternativa9" value="" id="certa10"> Roronoa Zoro<br>
+        <input type="radio" name="alternativa9" value=""/> Monkey D. Luffy<br>
+        <button  onclick="verificar10()" id="botao">Responder</button><br />
+        <span id="acertou10"></span>
+    </div>
+    </div>
+    <div id="card">
+        <div class="container">
+        <img src="/img/my hero academia.jpg" alt="">
+        <p>Qual anime essa imagem pertence?</p><br>
+        <input type="radio" name="alternativa10" value=""/> Gintama<br>
+        <input type="radio"name="alternativa10" value="" /> Blue Exorcist<br>
+        <input type="radio" name="alternativa10" value="" id="certa11"> My Hero Academia<br>
+        <button  onclick="verificar11()" id="botao">Responder</button><br />
+        <span id="acertou11"></span>
+    </div>
+    </div>
+    <div id="card">
+        <div class="container">
+        <img src="/img/Black clover1.gif" alt="">
+        <p>A cena acima pertence a qual anime?</p><br>
+        <input type="radio"  name="alternativa11" value="" id="certa12">Black Clover<br>
+        <input type="radio"name="alternativa11" value="" /> Haikyu<br>
+        <input type="radio" name="alternativa11" value=""/> Hunter x Hunter<br>
+        <button  onclick="verificar12()" id="botao">Responder</button><br>
+        <span id="acertou12"></span>
+    </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="card0">
+Pontuação Total:
+<span id="spanPonto"></span><br>
+<button onclick="recarregar()" id="botaonew1">Novo Jogo</button>
+<button id="botaonew1">Ranking</button>
+</div>
+</main>
+</body>
+</html>
