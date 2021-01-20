@@ -11,6 +11,6 @@
 
 3. Jogue e compartilhe com seus amigos para que vocês possam compartilhar sua pontuação e ver quem é mais Otaku ^-^.
 
-**Link do Quiz:** ![](https://mathxusohai.github.io/TrabalhoLima/JogosLima/jogos.html)
+**Link do Quiz:** (https://mathxusohai.github.io/TrabalhoLima/JogosLima/jogos.html)
 
 **Link do docx.(Para acessar o manual do jogo)** (https://sesisenaispedu.sharepoint.com/:w:/s/E-115-2-2020-1DM/EaCIHnK1fQdGsqZd2pCY3jYBOFheOjpifp7NVCcWFFFdQQ?email=matheus.machado18%40senaisp.edu.br&e=qVpFpB)
